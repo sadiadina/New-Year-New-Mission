@@ -1,0 +1,153 @@
+/* common shared styles */
+
+
+
+body{
+    
+    font-family: 'Inter', sans-serif;
+
+    }
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+
+
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+.banner{
+    font-size: 32px;
+        padding-top: 177px;
+        margin:auto;
+        padding-bottom: 16px;
+
+
+}
+.banner-title{
+font-size: 72px;
+padding-bottom: 177px ;
+margin: auto;
+
+}
+.off{
+    color: #F00;
+
+       text-align: center;
+       font-size: 88px;
+       font-style: normal;
+       font-weight: 700;
+       margin: auto;
+       padding-top: 120px;
+       padding-bottom: 48px;
+}
+.deal{
+    color: #F00;
+       text-align: center;
+       font-size: 24px;
+       font-weight: 500;
+       line-height: normal;
+       margin: auto;
+       
+}
+.cat{
+    color: #070211;
+text-align: center;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+margin: auto;
+padding-top: 16px;
+
+}
+.year{
+    width: 802.9px;
+height: 500px;
+display: block;
+margin: auto;
+padding-top: 48px;
+padding-bottom: 120px;
+}
+.left{
+ 
+position: absolute;
+top: 126px;
+left: 266px;
+
+}
+.midnight{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+margin: auto;
+
+font-weight: 900;
+
+padding-left: 266px;
+
+}
+.dolor{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+width: 697px;
+line-height: 30px;
+font-style: normal;
+padding-left: 266px;
+margin: auto;
+padding-top: 24px;
+}
+.right{
+    position: absolute;
+top: 68px;
+right: 416px;
+
+}
+.join{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+
+text-transform: uppercase;
+padding-left: 298px;
+padding-top: 48px;
+}
+.hotel{
+    background-color: aqua;
+
+    width: 1320px;
+    height: 482px;
+  
+
+background-position: center;
+
+
+}
+.about-info-now{
+
+    
+}
+.about-info{
+ 
+}
+.info-title{
+    position: center;
+}
+.info-description{
+
+}
