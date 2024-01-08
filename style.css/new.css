@@ -15,6 +15,24 @@ body{
 
 
 }
+.container-title{
+    background-image: url('../image/Vectorrr.png');
+    background-repeat: no-repeat;
+  
+    display: flex;
+    align-items: center;
+
+    width: 1320px;
+    height: 600px;;
+    
+}
+
+.right{
+    position: absolute;
+top: 68px;
+right: 416px;
+
+}
 
 .center{
     position: absolute;
@@ -91,12 +109,12 @@ font-style: normal;
 font-weight: 900;
 line-height: 88px;
 letter-spacing: 7.04px;
-margin: auto;
-
-font-weight: 900;
-
-padding-left: 266px;
-
+text-align: left;
+width: 642px;
+height: 176px;
+padding-left: 126px;
+padding-top: 126px;
+margin: 0;
 }
 .dolor{
     color: rgba(255, 255, 255, 0.80);
@@ -106,16 +124,10 @@ font-weight: 400;
 width: 697px;
 line-height: 30px;
 font-style: normal;
-padding-left: 266px;
-margin: auto;
+padding-left: 126px;
 padding-top: 24px;
 }
-.right{
-    position: absolute;
-top: 68px;
-right: 416px;
 
-}
 .join{
     color: #FFF;
 font-family: Inter;
@@ -124,9 +136,17 @@ font-style: normal;
 font-weight: 700;
 
 text-transform: uppercase;
-padding-left: 298px;
+padding-left: 158px;
 padding-top: 48px;
+padding-bottom: 142px;
 }
+.container-title .twofour{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*
 .hotel{
     background-color: aqua;
 
@@ -137,17 +157,47 @@ padding-top: 48px;
 background-position: center;
 
 
-}
-.about-info-now{
-
+} */
+.hotel{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+        width: 1320px;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 16px;
     
+   
 }
+
 .about-info{
+    text-align: center;
+font-family: Inter;
+font-size: 32px;
+
+font-weight: 600;
+line-height: 48px;
+text-transform: capitalize;
+margin: auto;
  
 }
-.info-title{
-    position: center;
+.btn{
+    border-radius: 8px;
+    border: 16px 32px;
+background: #F00;
+display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 0;
+color: white;
+font-weight: 700;
+font-size: 20px;
 }
-.info-description{
-
-}
+/* <div>
+<img src="image/Vectorrr.png" alt="" style="width: 1320px;
+height: 600px;filter: brightness(60%);">
+<div class="left">
+</div> */
